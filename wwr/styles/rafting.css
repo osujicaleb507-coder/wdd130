@@ -226,8 +226,4 @@ footer .copyright {
         grid-template-columns: 1fr;
         row-gap: 8px;
     }
-
-    header nav ul {
-        justify-content: flex-start;
-    }
 }
