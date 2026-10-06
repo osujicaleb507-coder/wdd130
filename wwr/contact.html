@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+      content="Contact White Water Rafting Co. to ask about trips, reservations, or our guides. Find our address, phone number, email, and a message form.">
+    <meta name="author" content="Caleb Anthony">
+    <title>Contact Us | White Water Rafting Co.</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+
+    <header>
+        <img src="images/z-wwr-oars.png" alt="White Water Rafting Co. logo">
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Contact Us</h1>
+
+        <section class="contact-info">
+            <h2>Find Us</h2>
+            <address>
+                <p>
+                    White Water Rafting Co.<br>
+                    123 River Road<br>
+                    Boise, ID 83702
+                </p>
+                <p>Phone: <a href="tel:+12085550142">(208) 555-0142</a></p>
+                <p>Email: <a href="mailto:info@wwrafting.example">info@wwrafting.example</a></p>
+            </address>
+
+            <iframe class="map" title="Map showing the White Water Rafting Co. location"
+              src="https://maps.google.com/maps?q=Boise%2C%20Idaho&amp;output=embed" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+        </section>
+
+        <section>
+            <h2>Meet Our Team</h2>
+            <div class="team-gallery">
+                <figure>
+                    <img src="images/guide-maria.jpg"
+                      alt="Maria Torres smiling in her river guide gear">
+                    <figcaption>Maria Torres<br>Head River Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/guide-jake.jpg"
+                      alt="Jake Peterson holding a safety rope on the riverbank">
+                    <figcaption>Jake Peterson<br>Safety Director</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/guide-linh.jpg" alt="Linh Nguyen at the reservations desk">
+                    <figcaption>Linh Nguyen<br>Reservations Manager</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form action="#" method="post">
+                <div class="form-field">
+                    <label for="name">Your name</label>
+                    <input type="text" id="name" name="name" autocomplete="name" required>
+                </div>
+
+                <div class="form-field">
+                    <label for="email">Your email address</label>
+                    <input type="email" id="email" name="email" autocomplete="email" required>
+                </div>
+
+                <fieldset>
+                    <legend>What is your message about?</legend>
+                    <div class="radio-option">
+                        <input type="radio" id="general" name="purpose" value="general" required>
+                        <label for="general">General Inquiry</label>
+                    </div>
+                    <div class="radio-option">
+                        <input type="radio" id="reservation" name="purpose" value="reservation">
+                        <label for="reservation">Reservation Question</label>
+                    </div>
+                    <div class="radio-option">
+                        <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                        <label for="suggestion">Website Suggestion</label>
+                    </div>
+                </fieldset>
+
+                <div class="form-field">
+                    <label for="message">Your message</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+                </div>
+
+                <div class="checkbox-option">
+                    <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+                    <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                </div>
+
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p class="copyright">&copy; 2026 White Water Rafting Co. | Caleb Anthony</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com" target="_blank" rel="noopener">
+                <img src="images/facebook-square.byupathway.svg"
+                  alt="White Water Rafting on Facebook">
+            </a>
+            <a href="https://instagram.com" target="_blank" rel="noopener">
+                <img src="images/instagram-byupathway.svg" alt="White Water Rafting on Instagram">
+            </a>
+            <a href="https://x.com" target="_blank" rel="noopener">
+                <img src="images/x-byupathway.svg" alt="White Water Rafting on X">
+            </a>
+        </nav>
+    </footer>
+
+</body>
+
+</html>
