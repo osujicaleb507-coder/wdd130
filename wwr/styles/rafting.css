@@ -240,7 +240,6 @@ footer .copyright {
     height: 18rem;
     margin-top: 1rem;
     border: 0;
-
 }
 
 .team-gallery {
@@ -278,7 +277,7 @@ footer .copyright {
 .form-field textarea {
     width: 100%;
     padding: 0.5rem;
-    border: 1px solid #555555;
+    border: 1px solid var(--accent1-color);
     border-radius: 0.25rem;
     font: inherit;
 }
@@ -286,7 +285,7 @@ footer .copyright {
 .contact-form fieldset {
     margin: 0 0 1rem;
     padding: 0.75rem 1rem;
-    border: 1px solid #555555;
+    border: 1px solid var(--accent1-color);
     border-radius: 0.25rem;
 }
 
@@ -307,7 +306,7 @@ footer .copyright {
 .contact-form input:focus-visible,
 .contact-form textarea:focus-visible,
 .contact-form button:focus-visible {
-    outline: 3px solid #0b4f6c;
+    outline: 3px solid var(--accent1-color);
     outline-offset: 2px;
 }
 
@@ -315,13 +314,13 @@ footer .copyright {
     padding: 0.75rem 1.5rem;
     border: 0;
     border-radius: 0.25rem;
-    background-color: #0b4f6c;
-    color: #ffffff;
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
     font: inherit;
     font-weight: bold;
     cursor: pointer;
 }
 
 .submit-button:hover {
-    background-color: #083a50;
+    background-color: var(--accent1-color);
 }
